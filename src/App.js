@@ -18,6 +18,7 @@ class Navigation extends Component{
   render(){
     return(
       <div id="Navigation">
+        <a href="https://hyum9.github.io/Blog20191228ver2hyum9/src/Components/spring.html">TestIf</a>&nbsp;&nbsp;&nbsp;
         <a href="/Blog20191228ver2hyum9">Home</a>&nbsp;&nbsp;&nbsp;
         <a href="/Blog20191228ver2hyum9/src/Components/spring.html">Spring Framework(+Spring Boot)</a>&nbsp;&nbsp;&nbsp;
         <a href="/Blog20191228ver2hyum9/src/Components/react.html">React(+React Native)</a>&nbsp;&nbsp;&nbsp;
