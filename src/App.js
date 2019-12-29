@@ -18,11 +18,11 @@ class Navigation extends Component{
   render(){
     return(
       <div id="Navigation">
-        changed version
-        <a href="/Blog20191228ver2hyum9/Components">Home</a>&nbsp;&nbsp;&nbsp;
-        <a href="spring.html">Spring Framework(+Spring Boot)</a>&nbsp;&nbsp;&nbsp;
-        <a href="react.html">React(+React Native)</a>&nbsp;&nbsp;&nbsp;
-        <a href="terms.html">Terms</a>
+        <a href="/Blog20191228ver2hyum9">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="/Blog20191228ver2hyum9/src/Components/spring.html">Spring Framework(+Spring Boot)</a>&nbsp;&nbsp;&nbsp;
+        <a href="/Blog20191228ver2hyum9/src/Components/react.html">React(+React Native)</a>&nbsp;&nbsp;&nbsp;
+        <a href="/Blog20191228ver2hyum9/src/Components/terms.html">Terms</a>
+        <hr/>
       </div>
     );
   }
