@@ -3,39 +3,27 @@ import React, { Component } from 'react';
 //리액트야 Subject 라는 이름의 태그를 나는 만들거야
 //property => props
 
-class Subject extends Component{
-render(){
-  return (
-    <header>
-      <h1>WEB</h1>
-      World Wide Web
-    </header>
+class Title extends Component{
+  render(){
+    return(
+      <div id="Title">
+        <h1>코딩 공간</h1>
+        <h5>HYUM9</h5>
+      </div>
     );
   }
 }
 
-class TOC extends Component{
+class Navigation extends Component{
   render(){
     return(
-        <nav>
-          <ol>
-            <li><a href="1.html">HTML</a></li>
-            <li><a href="2.html">CSS</a></li>
-            <li><a href="3.html">JavaScript</a></li>
-          </ol>
-        </nav>
-    );
-  }
-}
-
-class Content extends Component{
-  render(){
-    return(
-      <article>
-        <h2>Welcome</h2>
-        Hello React.
-      </article>
-
+      <div id="Navigation">
+        changed version
+        <a href="/Blog20191228ver2hyum9/Components">Home</a>&nbsp;&nbsp;&nbsp;
+        <a href="spring.html">Spring Framework(+Spring Boot)</a>&nbsp;&nbsp;&nbsp;
+        <a href="react.html">React(+React Native)</a>&nbsp;&nbsp;&nbsp;
+        <a href="terms.html">Terms</a>
+      </div>
     );
   }
 }
@@ -44,9 +32,17 @@ class App extends Component {
   render(){
     return (
       <div className ="App">
-        <Subject title="WEB" sub="World wide web"></Subject>
-        <TOC></TOC>
-        <Content></Content>
+        <Title></Title>
+        <Navigation></Navigation>
+        <div id="Body">
+          2019-12-29 To Do <br/>
+          <ul>
+            <li>"React로 블로그 만드는 방법 github server에 올려서 실행시켜 보기"에 관한 설명서 블로그에 올리기</li>
+            <li>블로그에 Github Repository 주소 삽입</li>
+            <li>Spring Framework에 관한 조사</li>
+            <li>읽어야 할 책 목록</li>
+          </ul>
+        </div>
       </div>
     );
   } 
