@@ -4,5 +4,8 @@ import { Link } from "react-router-dom";
 export default () =>(
     <div>
         This is Page1
+        About React-Native
+
+        
     </div>
 );
