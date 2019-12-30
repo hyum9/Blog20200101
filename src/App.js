@@ -18,7 +18,7 @@ class Navigation extends Component{
   render(){
     return(
       <div id="Navigation">
-        <a href="https://hyum9.github.io/Blog20191228ver2hyum9/src/terms.html">TestIf</a>&nbsp;&nbsp;&nbsp;
+        <a href="https://hyum9.github.io/Blog20191228ver2hyum9/example01/">TestIf</a>&nbsp;&nbsp;&nbsp;
         <a href="https://hyum9.github.io/Blog20191228ver2hyum9/">Home</a>&nbsp;&nbsp;&nbsp;
         <hr/>
       </div>
