@@ -3,9 +3,6 @@ import { Link } from "react-router-dom";
 
 export default () =>(
     <div>
-        This is Page1
-        About React-Native
-
-        
+        <h1>About React-Native</h1>
     </div>
 );
