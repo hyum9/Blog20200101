@@ -5,6 +5,6 @@ export default () =>(
     <div>
         Hi
         <br />
-        <Link to ="/page1">Go to page1</Link>
+        <Link to ="/">Go to page1</Link>
     </div>
 );
