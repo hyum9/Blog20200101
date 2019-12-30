@@ -1,8 +1,9 @@
 import React from "react";
 import { HashRouter, Route, Link, Switch } from "react-router-dom";
 
-import ReactReact from "./React/React"; 
-import Spring from "./Spring/Spring";
+import ReactIndex from "./React/React"; 
+import SpringIndex from "./Spring/Spring";
+import SpringFramework from "./Spring/SpringFramework";
 import Home from "./Home"; 
 
 //Route exact path = URL을 지정해주는 것 
@@ -12,8 +13,9 @@ export default () => (
     <HashRouter>
         <Switch>
             <Route exact path="/" component = { Home }/>
-            <Route exact path="/spring" component= { Spring }/>
-            <Route exact path="/react" component= { ReactReact }/>
+            <Route exact path="/spring" component= { SpringIndex }/>
+            <Route exact path="/react" component= { ReactIndex }/>
+            <Route exact path="/spring/springframework" component={SpringFramework}/>
         </Switch>
     </HashRouter>
 );

@@ -3,14 +3,15 @@ import { Link } from "react-router-dom";
 
 export default () =>(
     <div>
-        <h1>About Spring(+Spring Boot)</h1>
+        <h1>About Spring</h1>
+        <h3>Project01. 게시판 만들기</h3>
 
         통합개발도구환경(IDE): Eclipse<br/>
         플러그인: Spring-Tool-Suite<br/>
-        ->프로젝트 생성 시 프레임워크로 Spring 사용
+        ->프로젝트 생성 시 프레임워크로 Spring 사용<br/>
+        <Link to="/spring/springframework">SpringFrameWork을 쓰는 이유</Link><br/>
         언어(language): Java<br/>
         프레임워크(framework): Spring, Maven<br/>
-        -> 프레임워크와 라이브러리
         웹 서버(web-server): Tomcat<br/><br/><br/><br/>
 
         <hr/>
