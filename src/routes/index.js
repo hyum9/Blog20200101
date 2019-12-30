@@ -12,8 +12,6 @@ export default () => (
     <HashRouter>
         <Switch>
             <Route exact path="/" component = { Home }/>
-            <Route exact path="/page1" component = { Page1 }/>
-            <Route exact path="/page2" component = { Page2 }/>
         </Switch>
     </HashRouter>
 );
