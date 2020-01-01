@@ -19,8 +19,6 @@ export default () =>(
         1. Blog 화면 바뀌는 거 실행<br/>
         2. Spring 으로 게시판 만들기 환경 설정 <br/>
         3. Spring 으로 게시판 만들기 <br/>
-
-        돌아가는 거 확인
     </div>
 
 );

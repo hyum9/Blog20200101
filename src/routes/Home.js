@@ -3,6 +3,6 @@ import { Link } from "react-router-dom";
 
 export default () =>(
     <div>
-      This is Home
+      I am at home Now~ See if this working!
     </div>
 );
